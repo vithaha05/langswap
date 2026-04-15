@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-slate-950 text-slate-100;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+      "Apple Color Emoji", "Segoe UI Emoji";
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 border border-white/10 backdrop-blur-xl rounded-2xl shadow-xl;
+  }
+}

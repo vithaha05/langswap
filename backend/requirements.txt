@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+openai-whisper
+groq
+edge-tts
+requests
+sqlalchemy
+python-dotenv
+httpx
+aiofiles
+imageio-ffmpeg
